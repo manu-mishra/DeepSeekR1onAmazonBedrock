@@ -76,16 +76,9 @@ Navigate to the Amazon Bedrock console and initiate a new model import job:
 
 For detailed instructions, refer to the AWS documentation on importing customized models.
 
-### 5. Provision Throughput for the Imported Model
+### 5. Invoke the Model
 
-After the model is successfully imported, you need to purchase Provisioned Throughput to enable inference:
-
-- In the Bedrock console, go to "Custom models" and select your imported model.
-- Click on "Purchase Provisioned Throughput" and follow the instructions.
-
-### 6. Invoke the Model
-
-With the Provisioned Throughput in place, you can now invoke your model using the Bedrock API:
+You can now invoke your model using the Bedrock API:
 
 ```python
 import boto3
