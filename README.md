@@ -2,7 +2,7 @@
 
 Deploying the DeepSeek R1 model on Amazon Bedrock involves utilizing the Custom Model Import feature, which allows you to integrate your externally fine-tuned models into the Bedrock environment seamlessly. This process enables you to leverage Bedrock's serverless infrastructure and unified API for efficient model deployment.
 
-![DeepSeekR1 running on Bedrock](img\DeepSeekR1OnBedrock.png)
+![DeepSeekR1 running on Bedrock](/img/DeepSeekR1OnBedrock.png))
 
 ---
 
